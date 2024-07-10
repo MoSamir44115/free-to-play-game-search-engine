@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Search Engine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cssstylecode.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    
+    <section id="homegamespage" class="">
+        <div class="backgrounds">
+            <div class="bgimage"></div>
+            <!-- ......................................Navbar  ......................................... -->
+            <nav class="w-75 mx-auto  theheadernavbar theborder navbar shadow navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <div class="navbar-brand d-flex align-items-baseline">
+                        <div class="logoimg">
+                            <img class="w-100" src="imgs/logo-sm.png" alt="">
+                        </div>
+                        <h1 class="gamesreviews ms-1 text-white">GAME REVIEWS</h1>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                        <ul class=" navbar-nav">
+                            <li class="nav-item">
+                                <a id="mmorpg" class=" nav-link active" aria-current="page" href="#">MMORPG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="shooter" class="nav-link" href="#">SHOOTER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="sailing" class=" nav-link" href="#">SAILING</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="permadeath" class="nav-link " href="#">PERMADEATH</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="SUPERHERO" class=" nav-link " href="#">SUPERHERO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="pixel" class=" nav-link " href="#">PIXEL</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <!-- ...................................................content cards ............................. -->
+            <div class="thecardscontent mx-auto container">
+                <div id="demo" class="row row-cols-1 row-cols-sm-1  row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- the game details page  -->
+    <section id="gamedetailspage" class="gamepage text-white pt-4 d-none">
+        <div class="container">
+            <header class="d-flex justify-content-between" data-bs-theme="dark">
+                <h2 class="headtitle mb-4">Details Game</h2>
+                <button id="closebtn" type="button" class=" btn-close" aria-label="Close"></button>
+            </header>
+            <div id="detailscontainer"class="contents align-items-baseline align-items-md-start flex-column flex-md-row d-flex d-md-flex">
+              
+            </div>
+
+        </div>
+    </section>
+    <!-- loading -->
+    <div class="loading d-none bg-transparent w-100 start-0 top- fixed-top text-center">
+        <div class="lds-dual-ring"></div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/javascriptcode.js" type="module"></script>
+</body>
+
+</html>

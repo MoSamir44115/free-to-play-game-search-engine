@@ -1,0 +1,255 @@
+body {
+    font-family: "Recursive", sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.bgimage {
+    background-image: url(../imgs/wraper.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.backgcolor {
+    background-color: rgb(39, 43, 48, 0.4);
+
+}
+
+.backgrounds {
+
+    /* background: radial-gradient(circle, rgb(49 52 57) 72%, rgb(35 40 44) 100%) */
+    background: linear-gradient(rgb(35 39 42) 9%, rgb(22 26 30 / 89%) 50%, rgba(35, 39, 42, 0.9332107843137255) 92%);
+
+}
+
+.theheadernavbar {
+    background-color: #3A497B !important;
+    position: absolute;
+    top: 265px;
+    left: 13%;
+    z-index: 99;
+
+
+}
+
+nav.shadow {
+    box-shadow: -5px -0.5px 1rem 5px rgba(0, 0, 0, 0.15) !important;
+}
+
+.nav-link.active {
+    color: #0099CC !important;
+}
+
+.nav-link:focus {
+    color: white
+}
+
+
+.logoimg {
+    width: 40px;
+}
+
+
+.gamesreviews {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.backgrounds div ul li a {
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    transition: 0.3s color;
+}
+
+.backgrounds div ul li a:hover {
+    color: #0099CC !important;
+}
+
+
+
+
+.theborder {
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+/* LOADING  */
+
+
+.lds-dual-ring,
+.lds-dual-ring:after {
+    box-sizing: border-box;
+}
+
+.lds-dual-ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    display: inline-block;
+    width: 100%;
+    height: 1180px;
+    color: red;
+    background-color: rgba(29, 23, 23, 0.5);
+    z-index: 999999;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6.4px solid currentColor;
+    border-color: currentColor transparent currentColor transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* CARDS CONTENT OF THE GAMES AND THEIR IMAGES SECTION   */
+
+.thecardscontent {
+    margin-top: 100px;
+}
+
+
+.card {
+    background-color: #272B30;
+    color: white;
+    position: relative;
+
+}
+
+
+.card:hover {
+    .card div img {
+        color: green;
+    }
+
+}
+
+.game-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.game-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.thebadge {
+    border: 1px solid transparent;
+    background-color: #3d464e;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+
+}
+
+
+/* the game page section  */
+
+.gamepage {
+    height: 919px;
+    background-color: #272B30;
+}
+
+.card div img {
+    filter: grayscale(100);
+    transition: 0.5s;
+}
+
+.card:hover div img {
+    filter: grayscale(0%);
+}
+
+
+.card-body div button {
+    border: transparent;
+    background-color: #4A6792;
+}
+
+.card:hover .card-body div button {
+    background-color: #0D6EFD;
+
+}
+
+.card {
+    background-color: #303437;
+    transition-duration: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.imgscontentsblock {
+    width: 100%;
+}
+
+.headtitle,
+.gamename {
+    font-weight: 500;
+    line-height: 34px;
+    font-size: 28px;
+}
+
+ul.list-unstyled li {
+    font-size: 16px;
+
+    line-height: 24px;
+
+    font-weight: 400;
+}
+
+
+.thegamedesc {
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btnfont {
+    color: white;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+.btn-outline-warning {
+    --bs-btn-active-color: #fff;
+}
